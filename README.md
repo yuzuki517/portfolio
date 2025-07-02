@@ -2,9 +2,13 @@
 ポートフォリオ置き場
 
 ## Django on Azure
-+ 構築環境
++ 構成概要
 ~~~
-Python, Django, PostgreSQL, Nginx, Gunicorn, Azure, GitHub Actions
+OS：Ubuntu 22.04 LTS（Azure VM）
+Webアプリ：Django + Gunicorn
+DB：Azure Database for PostgreSQL
+Webサーバー：Nginx
+CI/CD：GitHub ( 手動 or GitHub Actions )
 ~~~
 
 ##
