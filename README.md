@@ -6,7 +6,7 @@
 ~~~
 OS：Ubuntu 22.04 LTS（Azure VM）
 Webアプリ：Django + Gunicorn
-DB：Azure Database for PostgreSQL
+DB：PostgreSQL
 Webサーバー：Nginx
 CI/CD：GitHub ( 手動 or GitHub Actions )
 ~~~
