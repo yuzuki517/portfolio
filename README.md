@@ -1,31 +1,31 @@
-# portfolio
-ポートフォリオ置き場
-
-## Django on Azure
+# about this
+ポートフォリオ置き場です。
+ 
+ 
+ 
+### 柚木の杜 (yuzuki-no-mori)    ※ 更新日 2025/08/xx
++ 概要
+~~~
+~~~
 + 構成概要
 ~~~
-OS：Ubuntu LTS版（Azure VM）
+OS：Ubuntu 24.04 LTS（Azure VM）
+サイズ：Standard B1s (1 vcpu、1 GiB メモリ)
 Webアプリ：Django + Gunicorn
 DB：PostgreSQL
 Webサーバー：Nginx
 CI/CD：GitHub ( GitHub Actions )
 ~~~
-
-## 決定事項。(未実行
+  
+### 作成物名    ※ 更新日 YYYY/MM/DD
++ 概要
 ~~~
-github pages 作成
-Azure VM 作成
-github pages からAzure上のホストに連携
-ドメイン取得 yuzuki-no-mori.com (WWW.も運用できるようにする)
-Let's Encrypt SSL証明書取得 
 ~~~
-
-## 以下は考え中。決めたら上へ
-+ 項目A
++ 構成概要
 ~~~
 ~~~
 
-+ 項目B
+### 考案中メモ
 ~~~
 ~~~
 
