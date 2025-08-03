@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+.env
+.env.*
+
+# PostgreSQL
+*.pgsql
+*.psql
+pgdata/
+pg_backup/
+
+# Azure
+*.azure/
+*.azure_credentials
+*.publishsettings
+*.azureconfig
+*.pem
+*.cer
+
+# Python virtual environment
+venv/
+
+# VSCode
+.vscode/
+
+# OS・エディタ系
+.DS_Store
+Thumbs.db
+
+# GitHub Actions logs
+*.coverage
+htmlcov/
+.coverage.*
+
+# Node.js (もし使う場合)
+# node_modules/
+# npm-debug.log*
+
+# その他
+*.bak
+*.swp
+*.tmp
+
