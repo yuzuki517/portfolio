@@ -32,3 +32,11 @@ jobs:
         source: "yuzuki-no-mori/"
         target: "/home/yuzuki/portfolio/"
 
+    - name: Run deployment commands on Azure VM
+      uses: appleboy/ssh-action@v0.1.10
+      with:
+        host: ${{ secrets.AZURE_VM_IP }}
+        username: ${{ secrets.AZURE_VM_USER }}
+        key: ${{ secrets.AZURE_VM_SSH_KEY }}
+        script: |
+          bash /home/yuzuki/portfolio/post-deploy.sh
