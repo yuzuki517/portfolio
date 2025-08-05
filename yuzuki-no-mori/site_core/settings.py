@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!4(0e$ooy)*@^z87#6*xc&#%k8z!db4p79p8l7c-@mz$0pz=l^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['yuzuki-no-mori.com', 'www.yuzuki-no-mori.com']
+ALLOWED_HOSTS = ['yuzuki-no-mori.com']
 SECURE_SSL_REDIRECT = True
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
