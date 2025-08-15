@@ -25,10 +25,7 @@ CI/CD：Azure DevOps と GitHub Actions
 ~~~
 ~~~
 
-### 考案中メモ
-~~~
-~~~
-
+### ↓ 保留中
 
 
 
