@@ -1,0 +1,11 @@
+<!-- templates/pages/detail.html -->
+{% extends "base.html" %}
+{% block content %}
+<h1>pages_detail</h1>
+<ul>
+  {% for a in articles %}
+    <li><a href="{{ a.get_absolute_url }}">{{ a.title }}</a></li>
+  {% empty %}<li>準備中</li>{% endfor %}
+</ul>
+{% endblock %}
+
